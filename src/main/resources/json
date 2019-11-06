@@ -1,0 +1,70 @@
+{
+  "OTA_AirLowFareSearchRQ": {
+    "Version": "4.3.0",
+    "POS": {
+      "Source": [
+        {
+          "PseudoCityCode": "7MQJ",
+          "RequestorID": {
+            "Type": "1",
+            "ID": "1",
+            "CompanyName": {
+              "Code": "TN",
+              "content": "TN"
+            }
+          }
+        }
+      ]
+    },
+    "OriginDestinationInformation": [
+      {
+        "RPH": "1",
+        "DepartureDateTime": "2019-11-08T11:00:00",
+        "OriginLocation": {
+          "LocationCode": "DFW"
+        },
+        "DestinationLocation": {
+          "LocationCode": "MIA"
+        }
+      },
+      {
+        "RPH": "2",
+        "DepartureDateTime": "2019-11-15T11:00:00",
+        "OriginLocation": {
+          "LocationCode": "MIA"
+        },
+        "DestinationLocation": {
+          "LocationCode": "DFW"
+        }
+      }
+    ],
+    "TravelPreferences": {
+      "ValidInterlineTicket": true,
+      "FlightTypePref": {
+      	"MaxConnections": "0"
+      }
+    },
+    "TravelerInfoSummary": {
+      "SeatsRequested": [
+        1
+      ],
+      "AirTravelerAvail": [
+        {
+          "PassengerTypeQuantity": [
+            {
+              "Code": "ADT",
+              "Quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "TPA_Extensions": {
+      "IntelliSellTransaction": {
+        "RequestType": {
+          "Name": "50ITINS"
+        }
+      }
+    }
+  }
+}
